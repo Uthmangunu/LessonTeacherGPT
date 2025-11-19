@@ -58,3 +58,4 @@ export function buildAdvisories({ isProcessing, conceptCount, conceptsNeedingMat
 
 export function countConceptsNeedingMatches(concepts: Concept[]) {
   return concepts.filter((concept) => concept.matches.length === 0).length;
+}
